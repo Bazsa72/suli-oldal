@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stuff/index/index.css" type="text/css">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--EB Garamond font-->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="icon" href="Stuff/index/media/cimer.png">
+    <script src="Stuff/index/extra_content.js"></script>
+    <script src="Stuff/index/content.js"></script>
+    <script src="Stuff/index/index.js"></script>
+    <title>VSZC Ipari Technikum</title>
+</head>
+
+<body link="black" vlink="black" alink="black">
+    <div id="Main">
+        <div id="Menubar">
+            <div id="ipari" class="szak active" onclick="Ipari()">
+                <img src="Stuff/index/media/cimer.png" class="menucimer bal">
+                <p class="Menutext kozep"><br>Ipari</p>
+            </div>
+            <div id="gepesz" class="szak inactive" onclick="Gepesz()">
+                <p class="Menutext kozep">
+                    <br>Gépgyártás technológiai technikus
+                </p>
+            </div>
+            <div id="kornyezet" class="szak inactive" onclick="Kornyezet()">
+                <p class="Menutext kozep">
+                    <br>Környezetvédelmi technikus
+                </p>
+            </div>
+            <div id="kisgyermek" class="szak inactive" onclick="Kisgyermek()">
+                <p class="Menutext kozep">
+                    <br>Kisgyermekgondozó nevelő
+                </p>
+            </div>
+            <div id="mecha" class="szak inactive" onclick="Mecha()">
+                <p class="Menutext kozep">
+                    <br>Mechatronikai technikus
+                </p>
+            </div>
+            <div id="muanyag" class="szak inactive" onclick="Muanyag()">
+                <p class="Menutext kozep">
+                    <br>Műanyagfeldolgozó technikus
+                </p>
+            </div>
+            <div id="info" class="szak inactive" onclick="Info()">
+                <p class="Menutext kozep">
+                    <br>Szoftverfejlesztő, -tesztelő
+                </p>
+            </div>
+            <div id="vegyesz" class="szak inactive" onclick="Vegyesz()">
+                <p class="Menutext kozep">
+                    <br>Vegyésztechnikus
+                </p>
+            </div>
+        </div>
+        <div id="content">
+            <p>Jelenleg Fejlesztés alatt!</p>
+        </div>
+        <!--Teljes Háttérmunka-->
+        <script>Ipari()</script>
+    </div>
+</body>
+
+</html>
